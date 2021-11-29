@@ -5,8 +5,12 @@ body {
     margin: 0;
 }
 
-.header, .hero, .information, .quote-section, .action, footer {
-    padding: 0 200px;
+.header, footer {
+    padding: 0 10%;
+}
+.hero, .information, .quote-section, .action {
+    padding: 60px 10%;
+   
    
 }
 
@@ -61,21 +65,23 @@ a:hover {
 }
 
 .right-hero {
-    border: 2px solid white;
+    border: 2px solid #F9FAF8;;
     width: 500px;
     height:250px;
     background-color: grey;
 }
 
 button {
-    color: white;
+    color: #F9FAF8;;
     font-size: 18px;
     font-weight: bold;
-    border-style: none;
     border-radius:0.8em;
     background-color: #3882F6;
     padding: 10px 30px;
+    border-style:solid;
 }
+
+
 
 .information {
     display: flex;
@@ -123,10 +129,14 @@ button {
     text-align:right;
 }
 
-.action {
-    padding-top: 80px;
-    padding-bottom: 80px;
+.action-box {
+    display:flex;
+    justify-content: space-between;
     background-color: #3882F6;
+    padding: 30px 10%;
+    border-radius: 1em;
+    color: #F9FAF8;
+    align-items: center;
 }
 
 
