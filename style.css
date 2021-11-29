@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.header, .hero, .information, .quote-section, .action, footer {
+    padding: 0 200px;
+   
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    gap:8px; 
+}
+
+a, .left-hero p, footer {
+    font-size:18px;
+    color: #e5e7eb; 
+}
+
+a {
+    text-decoration: none; 
+    padding:8px;
+}
+
+a:hover {
+    background-color: #3c506b;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding-bottom: 80px ;
+    padding-top: 80px;
+}
+
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:800;
+}
+
+.right-hero {
+    border: 2px solid white;
+    width: 500px;
+    height:250px;
+    background-color: grey;
+}
+
+button {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: none;
+    border-radius:0.8em;
+    background-color: #3882F6;
+    padding: 10px 30px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.boxes {
+    text-align: center;
+}
+
+.boxes img {
+    width: 100px;
+    height: 100px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 36px;
+    color:#1f2937;
+}
+
+.quote-section p {
+    font-style: italic;
+}
+
+.signature {
+    font-weight: bold;
+    text-align:right;
+}
+
+.action {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #3882F6;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+
+}
