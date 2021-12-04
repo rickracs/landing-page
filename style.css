@@ -8,10 +8,9 @@ body {
 .header, footer {
     padding: 0 10%;
 }
+
 .hero, .information, .quote-section, .action {
-    padding: 60px 10%;
-   
-   
+    padding: 40px 10%;
 }
 
 .header {
@@ -66,8 +65,7 @@ a:hover {
 
 .right-hero {
     border: 2px solid #F9FAF8;
-    
-   
+    margin:auto;
     background-color: grey;
 }
 
@@ -75,8 +73,7 @@ img {
     max-width: 300px;
 }
 
-button {
-    
+button { 
     font-size: 18px;
     font-weight: bold;
     border-radius:0.8em;
@@ -90,8 +87,7 @@ button {
 
 .information {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 .information-title {
@@ -104,14 +100,13 @@ button {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
-
-    
+    align-items: center;  
 }
 
 .boxes {
     text-align: center;
     padding: 24px;
+    margin:auto;
 }
 
 .boxes img {
