@@ -5,15 +5,15 @@ body {
     margin: 0;
 }
 
-.header, footer {
-    padding: 0 10%;
+header, footer {
+    padding: 0 8%;
 }
 
 .hero, .information, .quote-section, .action {
-    padding: 40px 10%;
+    padding: 40px 8%;
 }
 
-.header {
+header {
     background-color: #245f08;
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-    background-color: #3c506b;
+    background-color: #528d36;
 }
 
 .hero {
@@ -64,13 +64,13 @@ a:hover {
 }
 
 .right-hero {
-    border: 2px solid #F9FAF8;
+  
     margin:auto;
     background-color: grey;
 }
 
 img {
-    max-width: 300px;
+    max-width: 100%;
 }
 
 button { 
@@ -107,11 +107,16 @@ button {
     text-align: center;
     padding: 24px;
     margin:auto;
+   max-width: 300px;
+    /*height:400px;*/
+    flex: 1 1 auto;
+   
 }
+
 
 .boxes img {
     width: 250px;
-    
+    height:auto;
 }
 
 .quote-section {
@@ -131,9 +136,10 @@ button {
 
 .action-box {
     display:flex;
+    flex-direction: column;
     justify-content: space-between;
     background-color: #245f08;
-    padding: 30px 10%;
+    padding: 30px 8%;
     border-radius: 1em;
     color: #F9FAF8;
     align-items: center;
